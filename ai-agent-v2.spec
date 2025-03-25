@@ -1,3 +1,5 @@
+#  cSpell:disable 
+
 # -*- mode: python ; coding: utf-8 -*-
 
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules
@@ -57,7 +59,7 @@ exe = EXE(
     a.binaries,
     a.zipfiles,
     a.datas,
-    name='AIBrowser',
+    name='PTEEAIAgent',
     debug=False,
     strip=False,
     upx=True,

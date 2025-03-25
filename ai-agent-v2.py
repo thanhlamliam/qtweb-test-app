@@ -1,3 +1,5 @@
+#  cSpell:disable 
+
 import sys
 import asyncio
 from PySide6.QtWidgets import (
